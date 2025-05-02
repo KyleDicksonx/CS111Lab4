@@ -36,10 +36,12 @@ public class Decryptor {
 		modifiedInput.reverse();
 		
 		
-		
+		String switchCase = modifiedInput.toString();
 		for (int i = 0; i < modifiedInput.length(); i++) {
+			switchCase.toCharArray();
 			
-			modifiedInput.
+			
+			
 			
 		}
 		
