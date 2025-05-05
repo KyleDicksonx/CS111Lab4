@@ -137,7 +137,11 @@ public class Decryptor {
 		//scanner for file object
 		Scanner inputFileScanner = new Scanner(inputFile);
 		String outputString = inputFileScanner.nextLine();
+		
+		//close the scanner
 		inputFileScanner.close();
+		
+		//return the contents of the file
 		return outputString;
 		
 	}
